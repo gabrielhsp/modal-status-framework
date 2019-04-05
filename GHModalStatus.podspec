@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 	#
 
 	spec.name         = "GHModalStatus"
-	spec.version      = "1.0.6"
+	spec.version      = "1.0.7"
 	spec.summary      = "This is an awesome pod to create beautiful Modal Status inside iOS apps"
 
 	# This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
 	#  Not including the public_header_files will make all headers public.
 	#
 
-	spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
+	spec.source_files  = "GHModalStatus/Classes/*.{h,m,swift}"
 	spec.exclude_files = "Classes/Exclude"
 
 	# spec.public_header_files = "GHModalStatus/*.swift"

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 	#
 
 	spec.name         = "GHModalStatus"
-	spec.version      = "1.0.8"
+	spec.version      = "1.0.9"
 	spec.summary      = "This is an awesome pod to create beautiful Modal Status inside iOS apps"
 
 	# This description is used to generate tags and improve search results.
@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
 	#
 
 	# spec.resource  = "icon.png"
-	# spec.resources = "Resources/*.png"
+	spec.resources = "GHModalStatus/Classes/**/*.{png,jpg,xib,storyboard}"
 
 	# spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
